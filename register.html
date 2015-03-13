@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome to Softezy</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <form id="regForm" name="regForm" method="post" action="registration.aspx">
+        <div id="container">
+
+            <label class="lbl">Name:</label>
+            <input type="text" id="txtName" name="txtName"/>
+            
+            <div class="newline"></div>
+            <label class="lbl">City:</label>
+            <input type="text" id="txtCity" name="txtCity"/>
+            
+            <div class="newline"></div>
+            <label class="lbl">Address:</label>
+            <input type="text" id="txtAddress" name="txtAddress"/>
+            
+            <div class="newline"></div>
+            <label class="lbl">Gender:</label>
+            <input type="radio" id="rdMale" name="rdGender" value="Male" />Male
+            <input type="radio" id="rdFemale" name="rdGender" value="Female"/>Female
+            <div class="newline"></div>
+            <label class="lbl">Date of Birth:</label>
+            <select id="ddlDate" name="ddlDate">
+                <option value="Day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select id="ddlMonth" name="ddlMonth">
+                <option value="Month">Month</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select id="ddlYear" name="ddlYear">
+                <option value="Year">Year</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+            </select>
+            
+            <div class="newline"></div>
+            <label class="lbl">State:</label>
+            <select id="ddlState" name="ddlState">
+                <option value="State">State</option>
+                <option value="New Delhi">New Delhi</option>
+                <option value="Maharashtra">Maharashtra</option>
+            </select>
+            
+            <div class="newline"></div>
+            <label class="lbl">Country:</label>
+            <select id="ddlCountry" name="ddlCountry">
+                <option value="Country">Country</option>
+                <option value="India">India</option>
+                
+            </select>
+            
+            <div class="newline"></div>
+            <label class="lbl">Course:</label>
+            <select id="ddlCourse" name="ddlCourse">
+                <option value="Course">Course</option>
+                <option value="MCA">MCA</option>
+                <option value="Btech">Btech</option>
+            </select>
+            
+            <div class="newline"></div>
+            
+            <input type="submit" id="btnSubmit" name="btnSubmit" value="Submit"/>
+        </div>
+    </form>
+</body>
+</html>

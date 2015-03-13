@@ -1,0 +1,31 @@
+﻿ html{
+            background-color:silver;
+        }
+.column{
+            float:left;
+            width:300px;
+            margin-left:10px;
+            background-color:white;
+            border:solid 1px black;
+            padding:10px;
+        }
+
+#container{
+    margin-top:100px;
+    margin-left:450px;
+    width:400px;
+    border-width:1px;
+    border-style:solid;
+}
+.newline{
+    height:10px;
+    clear:both;
+}
+.lbl{
+    float:left;
+    width:150px;
+}
+#btnSubmit{
+    margin-left:100px;
+    width:100px;
+}
